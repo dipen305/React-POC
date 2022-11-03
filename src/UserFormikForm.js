@@ -58,7 +58,9 @@ export default function UserFormikForm() {
       >
         <hr />
         <div className="mb-2 flex flex-col">
-          <label className="font-bold">First name</label>
+          <label htmlFor="firstName" className="font-bold">
+            First name
+          </label>
           <input
             type="text"
             name="firstName"
